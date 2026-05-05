@@ -1,5 +1,5 @@
 {
-  "Name": "RoscomVPN-Optimized",
+  "Name": "RoscomVPN",
   "GlobalProxy": "true",
   "UseChunkFiles": "true",
   "RemoteDns": "8.8.8.8",
@@ -44,11 +44,7 @@
     "geosite:telegram"
   ],
   "ProxyIp": [
-    "geoip:telegram",
-    "5.28.192.0/18",
-    "91.108.0.0/16",
-    "109.239.140.0/24",
-    "149.154.160.0/20"
+    "geoip:telegram"
   ],
   "BlockSites": [
     "geosite:win-spy",
@@ -56,6 +52,6 @@
     "geosite:category-ads"
   ],
   "BlockIp": [],
-  "DomainStrategy": "AsIs",
-  "FakeDNS": "true"
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
 }
